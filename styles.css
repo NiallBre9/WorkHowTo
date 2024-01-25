@@ -48,22 +48,18 @@ a:hover {
   text-decoration: underline;
 }
 
-.box {
-  background-color: lightblue; /* Light blue background */
-  text-align: center; /* Center text within the box */
-  margin: 0 auto; /* Center the box horizontally */
-  width: 200px; /* Set a width for the box */
-  padding: 20px; /* Add some padding around the text */
-  border-radius: 5px; /* Round the corners slightly */
-  transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
-}
-
-.box:hover {
-  background-color: lightskyblue; /* Lighter shade of blue on hover */
-}
-
 .box-link {
-  color: #fff; /* White text color for the link */
-  font-size: 24px; /* Large text size */
-  text-decoration: none; /* Remove underline from link */
+  background-color: lightblue;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding: 15px 30px; /* Adjust padding as needed */
+  border: none; /* Remove default button border */
+  border-radius: 5px;
+  cursor: pointer; /* Indicate interactivity */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.box-link:hover {
+  background-color: lightskyblue;
 }
